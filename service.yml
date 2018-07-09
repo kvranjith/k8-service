@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-svc
+  namespace: elk
 spec:
   selector:
     app: nginx
